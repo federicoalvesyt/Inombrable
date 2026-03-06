@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NetFilm TV - Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo"><span>NET</span>FILM TV</div>
+<a href="usuarios.html"><button class="top-btn">Ver modo usuarios</button></a>
+</header>
+
+<div class="add-section">
+<h2>Agregar Película</h2>
+
+<input type="text" id="title" placeholder="Título">
+
+<input type="file" id="imageFile" accept="image/*">
+
+<input type="text" id="link" placeholder="Link del video">
+
+<br>
+
+<button onclick="addMovie()" class="play-btn">Agregar</button>
+
+</div>
+
+<div class="catalog" id="catalog"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
